@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+header
+{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav
+{
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section
+{
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer
+{
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Search CheckBook </h1>
+</header>
+
+<nav>
+<a href="/CheckBook/insert.html">Insert Checking</a> <br>
+</nav>
+
+<section>
+	<h1>Search CheckBook</h1>
+	
+	You can search different options if you would like. To see all 
+	just hit the search button with no input. To find a specific 
+	Transaction Number insert the number. To see all +/- 
+	transactions just insert either +/-. To check all transactions 
+	from specific locations search that. Lastly to see anything 
+	involving a specific date search the date via MM/DD/YYYY format.
+	<br><br>
+	
+	<form action="Search" method="POST">
+	
+		Search: <input type="text" name="keyword"> <br />
+		
+		<input type="submit" value="Search" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
